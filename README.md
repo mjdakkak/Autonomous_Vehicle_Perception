@@ -86,7 +86,4 @@ Optimizer: Adam (Adaptive Moment Estimation)
 
 
 
-!\[Learning Curves](plot.png)
-
-!\[Confusion Matrix](confusion.png)
 

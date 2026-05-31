@@ -10,6 +10,7 @@ Key Takeaway: Successfully evolved from a 79 to 81% K-Nearest Neighbors (KNN) ba
 
 
 
+
 **The Models**
 
 
@@ -23,6 +24,7 @@ The goal was to establish a baseline using classical "Lazy Learning" algorithm. 
 2\. Convolutional Neural Network
 
 The goal was to implement a deep learning algorithm capable of feature extraction. The average accuracy reached was 98%, with the best run being 99.5% accurate. This was achieved using 30 epochs. By utilizing 64 and 128 filter convolutional layers, the model picked up on geometric shapes (like ears and tails) rather than pixel colors. This transition drastically removed hallucinated hazards.
+
 
 
 
@@ -44,6 +46,7 @@ To reach a stable 98% performance, I developed a robust image and training pipel
 
 
 
+
 **Evaluation**
 
 
@@ -60,6 +63,7 @@ Model performance was validated using Learning Curves and Confusion Matrices.
 
 
 
+
 **Lessons Learned and Limitations**
 
 
@@ -67,6 +71,7 @@ Model performance was validated using Learning Curves and Confusion Matrices.
 * Resolution Constraints: At 32x32 pixels, some images are naturally ambiguous. This creates a "theoretical ceiling" where even a human would struggle to achieve 100% accuracy.
 * Environmental Noise: Early iterations showed a bias toward "Roads with Trees." Using Data Augmentation helped the model distinguish between organic tree textures and dog fur.
 * Convergence: I found that 30 Epochs provided the ideal balance. Extending to 40+ epochs showed signs of diminishing returns and a slight rise in validation loss.
+
 
 
 
